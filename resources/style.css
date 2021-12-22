@@ -1,0 +1,187 @@
+/*MAIN*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: bold;
+/*	background-color: #A2A79E;*/
+	background-color:#adb4b5;		
+}
+h1, h2, nav {
+	font-family: 'Roboto Slab', serif;
+}
+h1 {
+	margin-top: 4rem;
+	color: black;
+	text-align: center;
+	padding: 3rem;
+	font-size: 5rem;
+	background-color: whitesmoke;
+	box-shadow: 5px 5px #070707;
+	max-width: 900px;
+}
+h2 {
+	font-size: 3.4rem;
+}
+h5 {
+	font-weight: 900;
+}
+h4 {
+	font-weight: 650;
+}
+header {
+	box-shadow: 4px 4px #070707;
+
+}
+footer {
+	text-align: center;
+	padding: 2rem;
+	margin: 2rem;
+	top: 100%;
+}
+/*HEADER/NAV*/
+nav {
+	background-color: whitesmoke;
+	font-size: 1.4rem;
+	padding-bottom: .8rem;	
+}
+.nav-link {
+	padding: 1rem;
+	transition: font-size .4s;
+}
+.logo {
+	width: 110px;
+}
+
+
+/*SECTION STYLING*/
+.sections {
+
+}
+
+
+
+/*DIVIDER STYLING*/
+hr.solid {
+	border-top: 5px solid #070707;
+	margin: 5rem;
+}
+
+/*CARD STYLING*/
+.card-div {
+	justify-content: center;
+}
+.card {
+	max-width: 40rem;
+	margin: 1.5rem;
+	background-color: whitesmoke;
+	border: 2px solid black;
+	color: black;
+	box-shadow: 5px 5px #070707;	
+}
+.card-img-top {
+	height: 300px;
+
+}
+
+/*CONTACT STYLING*/
+.contact-div {
+
+/*	background-color: whitesmoke;*/
+	font-weight: bold;
+	text-align: center;
+	margin-top: 3rem;
+	padding: 2rem;
+}
+.contact-div .row {
+	padding: 2rem;
+}
+
+
+
+/*MODAL STYLING*/
+.modal-title {
+	font-size: 2rem;
+	font-weight: bold;
+	font-style: italic;
+}
+.modal-content {
+	background-color: #adb4b5;
+	font-weight: bold;
+	box-shadow: 5px 5px #070707;
+	border-radius: 1%;
+}
+.modal-footer {
+
+}
+input, select{
+	background-color: #707070;
+	color: whitesmoke;
+}
+
+/*BUTTONS*/
+.btn {
+	color: whitesmoke;
+	background-color: #070707;
+	transition: background-color .4s,
+	box-shadow .4s;
+}
+.exit {
+	margin: .2rem;
+}
+.enquire {
+	width: 50%;
+	max-width: 960px;
+	padding: .7rem;
+	margin-top: 5rem;
+	margin-bottom: 5rem;	
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 1.75rem;
+	transition: font-size .6s;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #555;
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  transition: background-color .6s,
+  box-shadow .6s;
+
+}
+
+#myBtn:hover {
+	box-shadow: 4px 4px #707070;
+	background-color: #ff9000; /* Add a dark-grey background on hover */
+}
+
+/*EVENTS*/
+@media screen and (max-width: 800px) {
+	.card {
+		max-width: 100%;
+	}
+}
+
+.nav-link:hover {
+	font-size: 1.9rem;
+}
+.enquire:hover {
+	font-size: 3rem;
+}
+.btn:hover {
+	background-color: #ff9000;
+	box-shadow: 4px 4px #070707;
+}

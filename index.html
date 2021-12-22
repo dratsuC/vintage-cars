@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Stylesheet CSS-->
+    <link rel="stylesheet" href="resources/style.css"/>
+
+    <!-- Font styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+    <title>Vint Rentals</title>
+  </head>
+
+
+    <!-- Header with navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href=""><img class="logo" src="resources/img/vintlogo.png"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <!-- Link <a> tags with corresponding section IDs -->
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#cars">Cars</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="enquire-link nav-link" href="" data-bs-toggle="modal" data-bs-target="#enquiry-modal">Enquire</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <body>
+
+
+
+    <!-- Main Heading -->
+    <div>
+      <h1 class="mx-auto">Vintage cars for hire</h1>
+    </div>
+    <br><br><br><br>
+
+    <hr class="solid">
+
+    <!-- Car Cards -->
+    <div id="cars" class="sections card-div d-flex flex-wrap my-auto">
+
+      <div class="card" id="beverlet">
+        <img src="resources/img/beverletcar.jpg" class="card-img-top" alt="Beverlet Car">
+        <div class="card-body">
+          <h5 class="card-title">1969 Beverlet Milkshake ~ $400p/h</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card" id="bluick">
+        <img src="resources/img/bluickcar.jpg" class="card-img-top" alt="Bluick Car">
+        <div class="card-body">
+          <h5 class="card-title">1950 Bluick Regent ~ $360p/h</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>    
+      <div class="card" id="caddylock">
+        <img src="resources/img/caddylockcar.jpg" class="card-img-top" alt="Caddylock Car">
+        <div class="card-body">
+          <h5 class="card-title">1961 Caddylock Mule</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+      <div class="card" id="">
+        <img src="resources/img/vmwcar.jpg" class="card-img-top" alt="VMW Car">
+        <div class="card-body">
+          <h5 class="card-title">1989 VMW 69M ~ $390p/h</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>              
+      <div class="card" id="">
+        <img src="resources/img/yolksvagencar.jpg" class="card-img-top" alt="YolksVagon Car">
+        <div class="card-body">
+          <h5 class="card-title">1980 YolksVagon Beem</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="solid">
+
+    <!-- Enquiry Button -->
+    <div class="w-100 enquire">
+      <button type="button" class="enquire btn btn-lg btn-dark" data-bs-toggle="modal" data-bs-target="#enquiry-modal">
+        Enquire Now!
+      </button>
+      <br>
+
+    </div>
+
+    <hr class="solid">
+
+    <!-- Contact Information -->
+
+    <div id="contact" class="sections contact-div mx-auto">
+
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <h2>Vint Enthusiast Car Rentals</h2>
+          </div>
+          <div class="row">
+            <h4>Email: </h4>
+            <h5>vintrentals@email.emailer</h5>
+          </div>                              
+        </div>
+
+        <div>
+          <br><br>
+          <h4>28 Taunton Dr, Cheltenham VIC 3192</h4>
+        </div>
+    </div>
+
+
+    <hr class="solid">
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+  <!-- Footer -->
+  <br><br>
+  <footer>
+    ©️Copyright 2021
+  </footer>
+
+
+
+
+
+    <!-- Modal Enquiry Form -->
+
+    <div class="modal sections fade" id="enquiry-modal" tabindex="-1" role="dialog" aria-labelledby="Enquiry form" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content mx-auto">
+            <div class="modal-header">
+              <h5 class="modal-title">Vint ~ Enquiry</h5>
+              <button type="button" class="exit btn btn-sm btn-light" data-bs-dismiss="modal" aria-label="Close" >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <form class="enquiry-form">
+                      <div class="container">
+                        <div class="form-group p-2">
+                            <label for="Name">Name: </label><br>
+                            <input type="textbox" class="form-control" id="Name" placeholder="John Applesmith">  
+                        <div class="form-group p-2">
+                        <div class="form-group p-2">
+                            <label for="Email">Email: </label><br>
+                            <input type="textbox" class="form-control"id="Email" placeholder="johnapplesmith@email.com">  
+                        <div class="form-group p-2">                          
+                            <label for="sel1">Car: </label><br>
+                            <select id="sel1" class="form-control">
+                                <option>To-do</option>
+                                <option>In progress</option>
+                                <option>Review</option>
+                                <option>Done</option>
+                                <option>Done</option>                                
+                            </select>
+                            <br>
+                        <div class="form-group p-2">
+                            <label for="Description">Description: </label> <br>
+                            <textarea id="Description" class="form-control" name="Description" placeholder="Special requests/Considerations" rows="5" cols="30"></textarea>
+
+                        </div>                                
+                        </div>                         
+                      </div>
+                    </form>
+                </div>
+              </div>
+            <div class="modal-footer">
+<!--               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+              <button type="button" class="btn btn-lg">Submit</button>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- Back to top button script -->
+    <script>
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 2000 || document.documentElement.scrollTop > 2000) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+    </script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
